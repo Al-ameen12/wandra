@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .section-1, 
@@ -14,7 +15,7 @@
 }
 
 .section-1, .footer {
-    background-color: rgb(3, 27, 77);
+    background-color: #1F2937;
     color: rgb(251, 251, 251);
 }
 
@@ -29,6 +30,7 @@
     font-size: 32px;
     font-weight: 300;
     text-shadow: 40px;
+    color: #F9FAF8;
 }
 
 .nav {
@@ -51,8 +53,16 @@
     gap: 16px;
 }
 
+.info .main_text {
+    Font-size: 48px;
+    Color: #F9FAF8;
+    font-Weight: 900;
+}
+
 .info p {
     line-height: 1.5;
+    Font-size: 18px;
+    Color: #E5E7EB;
 }
 
 .img-container {
@@ -70,6 +80,7 @@
     padding: 6px 10px;
     font-size: 16px;
     border-radius: 8%;
+    background-color: #3882F6;
 }
 
 
@@ -81,8 +92,9 @@
 
 .section-2 h3 {
     text-align: center;
-    font-size: 32px;
-
+    Font-size: 36px;
+    Color: #1F2937;
+    font-Weight: 900;
 }
 
 .cards {
@@ -101,15 +113,17 @@
 /* section 3 */
 
 .section-3 {
-    background-color: rgb(223, 226, 229);
+    background-color: #E5E7EB;
     padding-bottom: 64px;
     padding-top: 64px;
 }
 
 .section-3 .quote {
-    color: rgb(129, 133, 136);
-    font-size: 32px;
+    font-size: 36px;
     margin-bottom: 16px;
+    Color: #1F2937;
+    font-Weight: 300;
+    Font-style: italic;
 
 }
 
